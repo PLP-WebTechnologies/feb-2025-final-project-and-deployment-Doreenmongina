@@ -1,4 +1,4 @@
-# February 2025 Final Project and Deployment - Doreenmongina
+# Final Project and Deployment
 
 ## **Project Overview**
 This project is a responsive multipage website designed and developed using **HTML5**, **CSS3**, and **JavaScript**. The website demonstrates modern web development practices, including semantic HTML, responsive design, and interactive features. The project is deployed on **GitHub Pages** for live access.
@@ -18,7 +18,8 @@ This project is a responsive multipage website designed and developed using **HT
 ## **File Structure**
 
 feb-2025-final-project-and-deployment-Doreenmongina/
-│
+
+
 ├── index.html         
 ├── style.css          
 ├── script.js          
