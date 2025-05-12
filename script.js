@@ -1,6 +1,8 @@
 // Select DOM elements
 const navbar = document.querySelector('.navbar');
 const navLinks = document.querySelectorAll('.navbar a');
+const hamburger = document.querySelector('.hamburger');
+const navA = document.querySelector('.nav-links');
 const happyEmoji = document.getElementById('happy-emoji');
 const fillForm = document.getElementById('fillForm');
 const contactCards = document.querySelectorAll('.contact-card');
@@ -123,3 +125,19 @@ styleSheet.innerText = `
 `;
 document.head.appendChild(styleSheet);
 
+
+
+hamburger.addEventListener('click', () => {
+    navA.classList.toggle('active');
+    hamburger.classList.toggle('active'); 
+});
+
+
+    // Hamburger menu toggle
+    hamburger.addEventListener('click', () => {
+        // Toggle active class on hamburger icon
+        hamburger.classList.toggle('active');
+        
+        // Toggle visibility of nav links
+        navLinksContainer.classList.toggle('show');
+    });
