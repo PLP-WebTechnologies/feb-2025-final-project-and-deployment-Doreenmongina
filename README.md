@@ -18,7 +18,8 @@ This project is a responsive multipage website designed and developed using **HT
 ## **File Structure**
 
 feb-2025-final-project-and-deployment-Doreenmongina/
-│
+
+
 ├── index.html         
 ├── style.css          
 ├── script.js          
